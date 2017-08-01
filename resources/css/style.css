@@ -13,7 +13,7 @@ html, body {
   display: flex;
 }
 
-/**** Header ****/
+/************ Header **************************************/
 
 header {
   background-image: url("../images/glasses-bg.png");
@@ -66,14 +66,16 @@ header .flex {
   margin-right: -2rem;
 }
 
-/**** Supporting *****/
+/************** Supporting *****************************/
+
+
+/******* 1st Section ********/
 
 .supporting {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 3rem auto;
-  border: 2px solid black;
+
 }
 
 .service {
@@ -81,9 +83,9 @@ header .flex {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid black;
   height: 8rem;
   width: 5rem;
+  margin: 3rem 0;
 }
 
 .service.comp, .service.fittings {
@@ -106,3 +108,5 @@ header .flex {
 .truck img {
   width: 5rem;
 }
+
+/********** Second Section *******/

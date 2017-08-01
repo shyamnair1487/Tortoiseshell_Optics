@@ -73,7 +73,6 @@ header .flex {
 
 .supporting {
   display: flex;
-  align-items: center;
   justify-content: center;
 
 }
@@ -110,3 +109,21 @@ header .flex {
 }
 
 /********** Second Section *******/
+
+
+.info {
+  width: 35%;
+  margin-bottom: 5rem;
+}
+
+.info .title {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1.25rem;
+  background: cadetblue;
+}
+
+.supporting.container .info:nth-child(1) {
+  margin-right: 5%;
+}
+
+/*************** Footer **********************/

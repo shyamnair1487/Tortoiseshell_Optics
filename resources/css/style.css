@@ -127,3 +127,16 @@ header .flex {
 }
 
 /*************** Footer **********************/
+
+footer {
+  display: flex;
+  align-items: center;
+  background: azure;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+footer img {
+  margin-left: 4rem;
+  margin-right: 1rem;
+}

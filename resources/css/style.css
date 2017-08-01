@@ -19,6 +19,7 @@ header {
   background-image: url("../images/glasses-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 30rem;
   padding: 1rem 0;
 }
@@ -63,4 +64,45 @@ header .flex {
   padding: 1.5rem 5rem;
   margin-top: 10rem;
   margin-right: -2rem;
+}
+
+/**** Supporting *****/
+
+.supporting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  border: 2px solid black;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  height: 8rem;
+  width: 5rem;
+}
+
+.service.comp, .service.fittings {
+  margin-right: 6rem;
+}
+
+.service p {
+  text-align: center;
+}
+
+.comp img {
+  width: 3.5rem;
+
+}
+
+.fittings img {
+  width: 5rem;
+}
+
+.truck img {
+  width: 5rem;
 }

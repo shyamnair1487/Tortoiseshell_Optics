@@ -52,6 +52,10 @@ nav {
   margin-right: 2rem;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 header .flex {
   justify-content: flex-end;
 }

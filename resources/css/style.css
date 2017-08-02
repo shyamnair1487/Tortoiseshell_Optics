@@ -70,6 +70,18 @@ header .flex {
   margin-right: -2rem;
 }
 
+.mobile-banner {
+  display: none;
+  max-width: 100%;
+  margin-top: 9rem;
+  background: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 /************** Supporting *****************************/
 
 
@@ -125,6 +137,7 @@ header .flex {
   padding: 0.5rem 1.25rem;
   background: cadetblue;
   width: 10rem;
+  color: white;
 }
 
 .supporting.container .info:nth-child(1) {
@@ -154,7 +167,7 @@ footer img {
     height: 22rem;
   }
 
-  nav.container {
+  .container {
     max-width: 100%;
   }
 
@@ -168,4 +181,85 @@ footer img {
     padding: 0.75rem 4rem;
   }
 
+}
+
+@media only screen and (max-width: 560px) {
+  header {
+    height: 17rem;
+    background-position: 20% center;
+  }
+
+  .name_icon span, .menu {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .header .flex {
+    display: block;
+
+  }
+
+  .main-banner {
+    display: none;
+  }
+
+  .mobile-banner {
+    display: block;
+  }
+
+  .supporting {
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem 0;
+
+  }
+
+  .service {
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: flex-start;
+  }
+
+  .service.comp, .service.fittings {
+    margin-right: 0;
+    margin-bottom: 1.54rem;
+  }
+
+  .info {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .supporting.container .info:nth-child(1) {
+    margin-right: 0;
+  }
+
+  .info .title {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .info p {
+    font-size: 0.77rem;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  footer img {
+    margin: 0;
+  }
+
+  footer span {
+    display: none;
+  }
 }
